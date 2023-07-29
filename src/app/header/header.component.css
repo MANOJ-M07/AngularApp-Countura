@@ -1,0 +1,16 @@
+header {
+    font-family: Arial;
+    font-size: 25px;
+    background-color: rgb(2, 141, 255);
+    color:white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+header span {
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color:white;
+}

@@ -1,0 +1,42 @@
+<div class="container-fluid">
+    <header class="d-flex bg-primary text-white p-2 justify-content between">
+        <div class="name bi bi-person">Customer Manager</div>
+        <div>
+            <span><a (click)="CategoryChanged('all')">Customer</a></span>
+            <span><a (click)="CategoryChanged('orders')">Orders</a></span>
+            <span><a (click)="CategoryChanged('about')">About</a></span>
+            <span><a (click)="CategoryChanged('login')">Login</a></span>
+        </div>
+    </header>
+    <section class="row mt-2">
+        <nav class="col-1">
+            <div>
+                <div>
+                    <select>
+                     <!-- <select name="Category" ngModel #Category="ngModel" (change)="CategoryChanged( Category.value )" class="form-select"> -->
+                        <option *ngFor="let category of Categories" [value]="category">
+                            {{category}}
+                        </option>
+                    </select>
+                </div>
+            </div>
+        </nav>
+        <main class="col-7 dflex flex-wrap overflow-auto" style="height: 800px;">
+            <div *ngfor="let item of Customers" class="card m-2 p-2" style="width: 500px;">
+                <div class="card-header" style="height: 140px;">
+                    <p>{{item.firstName}}</p>
+                </div>
+                <div class="card-body">
+                    <dl>
+                        <dd>{{item.addres}}</dd>
+                        <dd>{{item.city}}</dd>
+                        <dd>{{item.state}}</dd>
+                    </dl>
+                </div>
+                <div class="car-footer">
+                    <a>View Orders</a>
+                </div>
+            </div>
+        </main>
+    </section>
+</div>

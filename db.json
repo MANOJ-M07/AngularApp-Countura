@@ -1,0 +1,75 @@
+{
+  "posts": [
+    {
+      "firstName": "test0",
+      "lastName": "test0",
+      "address": "test",
+      "city": "test",
+      "state": "test",
+      "id": 1
+    },
+    {
+      "firstName": "ravi",
+      "lastName": "kumar",
+      "address": "123 street",
+      "city": "chennai",
+      "state": "Tamil nadu",
+      "id": 2
+    },
+    {
+      "firstName": "manoj",
+      "lastName": "moorthy",
+      "address": "1234vellore",
+      "city": "vellore",
+      "state": "tamilnadu",
+      "id": 3
+    },
+    {
+      "firstName": "test3",
+      "lastName": "test3",
+      "address": "test",
+      "city": "test",
+      "state": "test",
+      "id": 4
+    },
+    {
+      "firstName": "test1",
+      "lastName": "test1",
+      "address": "123test",
+      "city": "test",
+      "state": "test",
+      "id": 5
+    },
+    {
+      "firstName": "test2",
+      "lastName": "test2",
+      "address": "test",
+      "city": "test",
+      "state": "test",
+      "id": 6
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullName": "test",
+      "email": "test@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "fullName": "manoj",
+      "email": "test",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "fullName": "Aishu",
+      "email": "aishu@gmail.com",
+      "password": "12354",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
